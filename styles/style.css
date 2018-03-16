@@ -1,0 +1,51 @@
+body > div {
+  font-family: 'Overpass Mono', monospace;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.name {
+  margin-right: auto;
+}
+
+li {
+  padding: 15px 30px;
+}
+
+nav {
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
+  background-color: rgb(119, 238, 231)
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 7em
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer i {
+  font-size:36px;
+  color: black;
+}
