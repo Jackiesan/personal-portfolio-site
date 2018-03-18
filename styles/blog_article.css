@@ -1,22 +1,35 @@
+
+
 .post-content {
   margin: 100px 100px;
 }
 
 h2 {
   font-size: 3em;
+  color: white;
 }
 
 .date {
   padding-bottom: 30px;
-  border-bottom: 2px dotted black;
+  border-bottom: 2px dotted white;
 }
 
 .back {
   padding-top: 100px;
-  border-top: 2px dotted black;
+  border-top: 2px dotted white;
+  color: white;
 }
 
 .blog-post-text {
   padding-top: 30px;
   padding-bottom: 40px;
+  color: white;
+}
+
+.back a {
+  color: white;
+}
+
+.back i:hover {
+  color: rgb(225, 230, 22)
 }

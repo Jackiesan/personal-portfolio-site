@@ -1,0 +1,40 @@
+header {
+  margin-top: 100px;
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+  color: rgb(225, 230, 22);
+}
+
+.project {
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  /*grid-template-columns: 1fr 3fr;*/
+  /*margin-left: 200px;
+  margin-right: 150px;*/
+  border: white 2px solid
+}
+
+.project-content {
+  width: 700px;
+}
+
+.button-container a {
+  color: white;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-container {
+  grid-column-start: 2;
+  margin-left: 20px;
+}
+
+.project p {
+  margin-left: 20px;
+}

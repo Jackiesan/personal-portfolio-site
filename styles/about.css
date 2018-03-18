@@ -3,6 +3,7 @@
   border-radius: 50%;
   width: 270px;
   height: auto;
+  border: rgb(225, 230, 22) 4px double;
 }
 
 .about-content {
@@ -15,4 +16,10 @@
 .about-me-text {
   width: 800px;
   margin-left: 100px;
+  color: white;
+  line-height: 1.5;
+}
+
+.about-me-text h2 {
+  color: rgb(225, 230, 22);
 }
