@@ -1,0 +1,17 @@
+.post-content {
+  margin: 100px 100px;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+.date {
+  padding-bottom: 30px;
+  border-bottom: 2px dotted black;
+}
+
+.back {
+  padding-top: 100px;
+  border-top: 2px dotted black;
+}

@@ -1,11 +1,23 @@
-body > div {
+body {
   font-family: 'Overpass Mono', monospace;
+  margin: 10px;
+  height: 100%
+}
+
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: auto;
+  width: 100%;
+  background-color: rgb(119, 238, 231);
 }
 
 ul {
   display: flex;
-  list-style-type: none;
   justify-content: flex-end;
+  list-style-type: none;
   flex-wrap: wrap;
 }
 
@@ -13,16 +25,8 @@ ul {
   margin-right: auto;
 }
 
-li {
-  padding: 15px 30px;
-}
-
-nav {
-  top: 0;
-  left: 0;
-  width: 100%;
-  position: fixed;
-  background-color: rgb(119, 238, 231)
+ul > li {
+  padding-right: 80px;
 }
 
 a {
@@ -32,20 +36,51 @@ a {
 
 a:hover {
   text-decoration: underline;
+  color: yellow;
 }
 
-h1 {
-  font-size: 7em
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 300px;
+  padding-top: 150px;
+  adding-bottom: 150px;
 }
 
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-}
 
 .footer i {
   font-size:36px;
   color: black;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+* {
+ box-sizing: border-box;
+}
+
+*:before,
+*:after {
+ box-sizing: border-box;
+}
+
+html,
+body {
+ height: 100%;
+ position: relative;
+}
+
+body > div {
+ min-height: 100vh;
+ overflow: hidden;
+ display: block;
+ position: relative;
+ padding-bottom: 100px;
+}
+
+.footer {
+ position: absolute;
+ bottom: 0;
+ width: 100%;
 }
