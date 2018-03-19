@@ -1,27 +1,23 @@
 
 
-.post-content {
+.project-content {
   margin: 100px 100px;
 }
 
 h2 {
   font-size: 3em;
   color: white;
+  padding-bottom: 30px;
+  border-bottom: solid 3px rgb(225, 230, 22);
 }
 
-.date {
-  padding-bottom: 30px;
-  border-bottom: 2px dotted white;
-  color: rgb(225, 230, 22);
-}
 
 .back {
   padding-top: 100px;
-  border-top: 2px dotted white;
   color: rgb(225, 230, 22);
 }
 
-.blog-post-text {
+.project-text {
   padding-top: 30px;
   padding-bottom: 40px;
   color: white;

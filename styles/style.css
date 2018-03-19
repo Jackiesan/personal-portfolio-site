@@ -33,10 +33,15 @@ ul > li {
 a {
   text-decoration: none;
   color: black;
+  font-size: 1.2em;
 }
 
 a:hover {
-  color: black;
+  color: rgb(109, 191, 15);
+}
+
+nav a:hover {
+  cursor: default;
 }
 
 .intro {
@@ -48,6 +53,7 @@ a:hover {
   adding-bottom: 150px;
   justify-content: flex-end;
   color: white;
+  font-size: 1.5em;
 }
 
 
@@ -57,6 +63,10 @@ a:hover {
   padding: 10px;
   margin-right: 20px;
   color: rgb(225, 230, 22);
+}
+
+.footer i:hover {
+  color: rgb(109, 191, 15);
 }
 
 * {

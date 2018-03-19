@@ -23,8 +23,7 @@ header {
 }
 
 .date {
-  font-size: .8em
-  color: white;
+  font-size: .8em;
 }
 
 .journal-entries {
@@ -51,5 +50,7 @@ header {
 }
 
 .read-more-button:hover {
-  background-color: rgb(225, 230, 22);
+  background-color: rgb(109, 191, 15);
+  color: black;
+  cursor: default;
 }
